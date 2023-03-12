@@ -57,6 +57,7 @@ Route::get('products', function (){
 
 Route::get('page/{slug}', [ PageController::class, 'viewPage' ])->name('phypages');
 Route::get('blog/{slug}', [ BlogController::class, 'viewBlog' ])->name('phyblogs');
+Route::get('product/{slug}', [ ProductController::class, 'viewBlog' ])->name('phyproducts');
 
 /*Route::group(['prefix' => 'dev', 'middleware' => 'auth'], function () {
 });*/

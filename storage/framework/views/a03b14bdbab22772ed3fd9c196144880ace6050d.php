@@ -1,4 +1,4 @@
-<footer id="footer">
+<footer id="footer" class="ccc">
     <div class="container">
         <div class="footer-ribbon">
             <span style="font-family: 'Gemunu Libre', sans-serif;"><?php echo e(__('physmart.Contact Us')); ?></span>

@@ -1,379 +1,349 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="page-top page-header-7">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumbs-wrap text-center">
-                        <ul class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
-                            <li class="home" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                                <a itemprop="item" href="{{ route('homepage') }}"
-                                    title="Go to Home Page"><span itemprop="name">{{ __('physmart.homePage') }}</span></a>
-                                <meta itemprop="position" content="1" /><i class="delimiter delimiter-2"></i>
-                            </li>
-                            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a
-                                    itemprop="item"
-                                    href="https://www.portotheme.com/wordpress/porto/corporate5/portfolios/"><span
-                                        itemprop="name">Portfolio</span></a>
-                                <meta itemprop="position" content="2" /><i class="delimiter delimiter-2"></i>
-                            </li>
-                            <li>Grid 2 Columns</li>
-                        </ul>
+<div role="main" class="main shop pt-4">
+
+<div class="container">
+
+    <div class="masonry-loader masonry-loader-loaded">
+        <div class="row products product-thumb-info-list" data-plugin-masonry="" data-plugin-options="{'layoutMode': 'fitRows'}" style="position: relative; height: 709.624px;">
+            
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 0px; top: 0px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="product-thumb-info-badges-wrapper">
+<span class="badge badge-ecommerce badge-success">NEW</span>
+
+                        </div>
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="	https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-4.jpg">
+
+                            </div>
+                        </a>
                     </div>
-                    <div class="text-center">
-                        <h1 class="page-title">Grid 2 Columns</h1>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">electronics</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Photo Camera</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
                     </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$69,00</span>
+                        <span class="amount">$59,00</span>
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <div id="main" class="column1 boxed"><!-- main -->
-        <div class="container">
-            <div class="row main-content-wrap">
-                <!-- main content -->
-                <div class="main-content col-lg-12">
-                    <div id="content" role="main">
-                        <article class="post-1443 page type-page status-publish hentry">
-                            <h2 class="entry-title" style="display: none;">Grid 2 Columns</h2>
-                            <span class="vcard"                                                                                                    style="display: none;"><span class="fn"><a
-                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                        title="Posts by Joe Doe" rel="author">Joe Doe</a></span>
-                            </span>
-                            <span class="updated" style="display:none">2018-12-26T01:35:18+00:00</span>
-                            <div class="page-content">
-                                <div class="vc_row wpb_row row top-row">
-                                    <div class="vc_column_container col-md-12">
-                                        <div class="wpb_wrapper vc_column-inner">
-                                            <div id="porto-portfolio-9920"
-                                                 class="porto-portfolios porto-portfolioshdw1 wpb_content_element ">
-                                                <div class="page-portfolios clearfix portfolios-grid wpb_custom_f766824d32289da1f974c4f6f5382936"
-                                                     id="porto_portfolios_qqmh">
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 285px; top: 0px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
 
-                                                    <div class="portfolios-container portfolio-row portfolio-row-2 default">
+                        <div class="product-thumb-info-badges-wrapper">
+<span class="badge badge-ecommerce badge-success">NEW</span>
+<span class="badge badge-ecommerce badge-danger">27% OFF</span>
+                        </div>
 
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
 
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 design post-124 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-design portfolio_skills-design portfolio_skills-htmlcss portfolio_skills-javascript">
-                                                            <h3 class="entry-title" style="display: none;">Small Slider</h3>
-                                                            <span class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:16:23+00:00</span>
-                                                            <div class="portfolio-item default">
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image product-thumb-info-image-effect">
+                                <img alt="" class="img-fluid" src="	https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-5.jpg">
 
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/small-slider/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-5-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
+                                    <img alt="" class="img-fluid" src="	https://www.okler.net/previews/porto/9.9.2/img/products/product-grey-5.jpg">
 
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Small
-                                                                                Slider</span>
-
-                                                                            <span class="thumb-info-type">Design</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 brand post-126 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-brand portfolio_skills-backend portfolio_skills-logo">
-                                                            <h3 class="entry-title" style="display: none;">Large Slider</h3>
-                                                            <span class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:16:40+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/large-slider/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-7-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
-
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Large
-                                                                                Slider</span>
-
-                                                                            <span class="thumb-info-type">Brand</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 website post-120 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-website portfolio_skills-design portfolio_skills-htmlcss portfolio_skills-javascript">
-                                                            <h3 class="entry-title" style="display: none;">Wide Slider</h3>
-                                                            <span class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:16:57+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/wide-slider/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/porto_placeholders/100x96.jpg"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-short-560x540.jpg"
-                                                                             alt="" width="560" height="540" />
-
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Wide
-                                                                                Slider</span>
-
-                                                                            <span class="thumb-info-type">Website</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 medias post-129 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-medias">
-                                                            <h3 class="entry-title" style="display: none;">Video</h3><span
-                                                                class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:17:12+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/video/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-6-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
-
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Video</span>
-
-                                                                            <span class="thumb-info-type">Medias</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 website post-116 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-website portfolio_skills-backend portfolio_skills-htmlcss portfolio_skills-logo">
-                                                            <h3 class="entry-title" style="display: none;">Full Width Slider
-                                                            </h3><span class="vcard" style="display: none;"><span
-                                                                    class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:17:20+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/full-width-slider/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/porto_placeholders/100x96.jpg"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-full-width-2-560x540.jpg"
-                                                                             alt="" width="560" height="540" />
-
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Full Width
-                                                                                Slider</span>
-
-                                                                            <span class="thumb-info-type">Website</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 brand post-114 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-brand portfolio_skills-backend portfolio_skills-htmlcss portfolio_skills-javascript">
-                                                            <h3 class="entry-title" style="display: none;">Gallery</h3><span
-                                                                class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:17:32+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/gallery/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-1-2-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
-
-
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span
-                                                                                class="thumb-info-inner">Gallery</span>
-
-                                                                            <span class="thumb-info-type">Brand</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 medias post-104 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-medias portfolio_skills-backend portfolio_skills-design portfolio_skills-htmlcss portfolio_skills-javascript">
-                                                            <h3 class="entry-title" style="display: none;">Medias</h3><span
-                                                                class="vcard" style="display: none;"><span class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:18:36+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/medias/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-4-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Medias</span>
-
-                                                                            <span class="thumb-info-type">Medias</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                        <article
-                                                            class="portfolio portfolio-grid portfolio-col-2 medias post-102 type-portfolio status-publish has-post-thumbnail hentry portfolio_cat-medias portfolio_skills-design portfolio_skills-htmlcss portfolio_skills-logo">
-                                                            <h3 class="entry-title" style="display: none;">Full Width Video
-                                                            </h3><span class="vcard" style="display: none;"><span
-                                                                    class="fn"><a
-                                                                        href="https://www.portotheme.com/wordpress/porto/corporate5/author/porto_admin/"
-                                                                        title="Posts by Joe Doe" rel="author">Joe
-                                                                    Doe</a></span></span><span class="updated"
-                                                                                               style="display:none">2018-11-29T09:18:52+00:00</span>
-                                                            <div class="portfolio-item default">
-
-                                                                <a class="text-decoration-none portfolio-link"
-                                                                   href="https://www.portotheme.com/wordpress/porto/corporate5/portfolio/full-width-video/">
-                                                                <span class="thumb-info thumb-info-lighten">
-                                                                    <span class="thumb-info-wrapper">
-                                                                        <img class="porto-lazyload img-responsive"
-                                                                             src="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/themes/porto/images/lazy.png"
-                                                                             data-oi="https://www.portotheme.com/wordpress/porto/corporate5/wp-content/uploads/sites/11/2016/06/project-3-560x560.jpg"
-                                                                             alt="" width="560" height="560" />
-
-                                                                        <span class="thumb-info-title">
-
-                                                                            <span class="thumb-info-inner">Full Width
-                                                                                Video</span>
-
-                                                                            <span class="thumb-info-type">Medias</span>
-
-                                                                        </span>
-                                                                        <span class="thumb-info-action">
-                                                                            <span
-                                                                                class="thumb-info-action-icon thumb-info-action-icon-dark opacity-8"><i
-                                                                                    class="fa fa-link"></i></span>
-                                                                        </span>
-                                                                    </span>
-                                                                </span>
-                                                                </a>
-                                                            </div>
-                                                        </article>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
-                        </article>
+                        </a>
                     </div>
-                </div><!-- end main content -->
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Porto Headphone</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
+                        <span class="amount">$99,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 570px; top: 0px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-2.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Golf Bag</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$29,00</span>
+                        <span class="amount">$19,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 855px; top: 0px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="product-thumb-info-badges-wrapper">
+
+<span class="badge badge-ecommerce badge-danger">27% OFF</span>
+                        </div>
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <div class="countdown-offer-wrapper">
+                            <div class="text-color-light negative-ls-05 text-2" data-plugin-countdown="" data-plugin-options="{'textDay': 'DAYS', 'textHour': 'HRS', 'textMin': 'MIN', 'textSec': 'SEC', 'date': '2024/01/01 12:00:00', 'numberClass': 'text-color-light', 'wrapperClass': 'text-color-light', 'insertHTMLbefore': '<span>OFFER ENDS IN </span>', 'textDay': 'DAYS', 'textHour': ':', 'textMin': ':', 'textSec': '', 'uppercase': true}"><span>OFFER ENDS IN </span><span class="days text-color-light"><span class=" text-color-light">294</span> DAYS</span> <span class="hours text-color-light"><span class=" text-color-light">11</span> :</span> <span class="minutes text-color-light"><span class=" text-color-light">59</span> :</span> <span class="seconds text-color-light"><span class=" text-color-light">17</span> </span> </div>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-3.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Workout</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$40,00</span>
+                        <span class="amount">$30,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 0px; top: 354.812px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-4.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Luxury Bag</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
+                        <span class="amount">$79,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 285px; top: 354.812px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-5.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Styled Bag</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$199,00</span>
+                        <span class="amount">$119,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 570px; top: 354.812px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-6.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">hat</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Blue Hat</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$299,00</span>
+                        <span class="amount">$289,00</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3" style="position: absolute; left: 855px; top: 354.812px;">
+                <div class="product mb-0">
+                    <div class="product-thumb-info border-0 mb-3">
+
+                        <div class="addtocart-btn-wrapper">
+                            <a href="shop-cart.html" class="text-decoration-none addtocart-btn" title="Add to Cart">
+                                <i class="icons icon-bag"></i>
+                            </a>
+                        </div>
+
+                        <a href="ajax/shop-product-quick-view.html" class="quick-view text-uppercase font-weight-semibold text-2">
+                            QUICK VIEW
+                        </a>
+                        <a href="shop-product-sidebar-left.html">
+                            <div class="product-thumb-info-image">
+                                <img alt="" class="img-fluid" src="img/products/product-grey-8.jpg">
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <a href="#" class="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
+                            <h3 class="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" class="text-color-dark text-color-hover-primary">Adventurer Bag</a></h3>
+                        </div>
+                        <a href="#" class="text-decoration-none text-color-default text-color-hover-dark text-4"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div title="Rated 5 out of 5">
+                        <input type="text" class="d-none" value="5" title="" data-plugin-star-rating="" data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}">
+                    </div>
+                    <p class="price text-5 mb-3">
+                        <span class="sale text-color-dark font-weight-semi-bold">$99,00</span>
+                        <span class="amount">$79,00</span>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row mt-4">
+            <div class="col">
+                <ul class="pagination float-end">
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i></a></li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+                </ul>
             </div>
         </div>
-    </div><!-- end main -->
+    <div class="bounce-loader"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div></div>
+
+</div>
+
+</div>
 @stop
 
 @section('js')
